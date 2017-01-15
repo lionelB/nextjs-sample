@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "css-in-js", {
+        "vendorPrefixes": true,
+        "bundleFile": "static/styles.css"
+      }
+    ]
+  ]
+}
+       

@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "next",
+    "server": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "babel-plugin-css-in-js": "^1.4.1",
+    "next": "^2.0.0-beta",
+    "path-match": "1.2.4"
+  }
+}
