@@ -9,7 +9,7 @@ export default class extends React.Component {
   render () {
     return <div>
       <Head>
-        <link rel="stylesheet" href="static/styles.css" />
+        <link rel="stylesheet" href="/static/styles.css" />
       </Head>
       <h1 className={styles.title}>My {this.props.id} blog post</h1>
       <p className={styles.paragraph}>
